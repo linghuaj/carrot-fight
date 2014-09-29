@@ -1,0 +1,8 @@
+{
+"name":"droneFun",
+"version":"0.0.1",
+"dependencies":{
+"socket.io":"~1.1.0"
+}
+
+}

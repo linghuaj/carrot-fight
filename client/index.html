@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Carrot Fight</title>
+</head>
+<body>
+<h1>Carrot Fight</h1>
+<script src="app/bower_components/requirejs/require.js"></script>
+<script>
+    require.config({
+        baseUrl: "app",
+        paths: {
+            "jquery": "bower_components/jquery/dist/jquery",
+            "sizzle": "bower_components/jquery/src/sizzle/dist/sizzle",
+            "bower_cmp":"bower_components",
+            "PIXI":"bower_components/pixi/bin/pixi.dev"
+        }
+    });
+    require([ "app" ]);
+</script>
+
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<!--<script type="text/javascript" src="./scripts/lib/pixi.js"></script>-->
+<!--<script src="https://cdn.socket.io/socket.io-1.0.6.js"></script>-->
+<!--<script type="text/javascript" src="./scripts/index.js"></script>-->
+<body>
